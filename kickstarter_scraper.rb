@@ -7,9 +7,10 @@ def create_project_hash
 
   projects = {}
 
-  project = kickstarter.css("li.project.grid_4")
-  project.each do |project|
-    projects[project] = {}
+  source_hash = kickstarter.css("li.project.grid_4")
+  source_hash.each do |project|
+    title = project.css("h2.bbcard_name strong a").text
+      projects[title.to_sym] = {}
   end
 
 

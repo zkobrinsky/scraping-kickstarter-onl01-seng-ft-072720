@@ -18,6 +18,7 @@ def create_project_hash
   # blurb = project.css("p.bbcard_blurb").text.strip
   # project.css(".location-name").text
   # binding.pry
+  projects
 end
 
 

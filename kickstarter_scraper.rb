@@ -19,12 +19,6 @@ def create_project_hash
 
   end
 
-
-  # title = project.css("h2.bbcard_name strong a").text
-  # image = project.css("div.project-thumbnail a img").attribute("src").value
-  # blurb = project.css("p.bbcard_blurb").text.strip
-  # project.css(".location-name").text
-  # binding.pry
   projects
 end
 
